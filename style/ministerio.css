@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #e5e4e2, #707070);
+    color: #434343;
+}
+
+#botao{
+    background: #434343;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+#botao:hover{
+    background-image: linear-gradient(to right, #363636, #707070);
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.sobre{
+    position: relative;
+    top: 50px;
+    right: -70px;
+    color: #363636;
+  }
+
+  #desc{
+    line-height: 130%;
+  }
+
+  #dep{
+    font-size: 50px;
+    transition: 0.3s;
+  }
+
+  #dep:hover{
+    text-shadow: 0 0 4px #363636;
+    transition: 0.3s;
+  }
+
+.cadastrar{
+    position: absolute;
+    top: 20px;
+    left: 1070px;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #363636;
+}
+
+.imagem{
+    position: relative;
+    top: 1%;
+}

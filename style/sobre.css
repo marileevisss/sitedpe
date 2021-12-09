@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #444444;
+    color: white;
+}
+
+.titulo{
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+}
+
+.box{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#RHC{
+    position: relative;
+    top: -200px;
+    right: -1000px;
+    opacity: 0.2;
+}
+
+html, body {
+    overflow: hidden;
+  }

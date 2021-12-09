@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" >
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/styleForm.css" />
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro</b></legend>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nickname" class="labelInput">Nickname</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password" class="inputUser" required>
+                    <label for="password" class="labelInput">Senha</label>
+                </div>
+                <br>
+                <p>Sub-departamento</p>
+                <br>
+                <input type="checkbox" id="treinadores" nome="sub" value="treinadores" required>
+                <label for="treinadores">Treinadores</label>   
+                <br><br>
+                <input type="checkbox" id="instrutores" nome="sub" value="instrutores" required>
+                <label for="instrutores">Instrutores</label>  
+                <br><br>
+                <input type="checkbox" id="guias" nome="sub" value="guias" required>
+                <label for="guias">Guias</label>  
+                <br><br><br>
+                <input type="submit" name="submit" id="submit" href="index.html">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
